@@ -3,7 +3,7 @@ from sqlalchemy.orm import sessionmaker
 from sqlalchemy.ext.declarative import declarative_base
 
 
-database_url = "postgresql://mypostgre_ykxq_user:IMZcJIfxLfOqn0PoAyvicBw93T4q21ju@dpg-d952s75ckfvc73aqfdtg-a/mypostgre_ykxq"
+database_url = "postgresql://taskmanager_37dy_user:Rp5tlHOR4xz2Sa8KUMAFbThf3fOCaLSc@dpg-db368mijnfac738raseg-a/taskmanager_37dy"
 
 engine = create_engine(database_url, echo = True)
 
